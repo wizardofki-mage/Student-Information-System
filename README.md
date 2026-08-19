@@ -80,7 +80,7 @@ To compile this .java file into Java bytecode, you can use the command line like
 ## Sources
 - I figured out the code for public boolean isFullBinaryTree() and its helper method entirely on my own after writing some pseudo code on a sheet of scratch paper.
 - I wrote the recursive BST insert(E e) method and its recursive helper method on my own after drawing a picture, writing a little pseudocode, and letting my subconscious work on it while I slept.
-- I wrote the recursive find method in StudentBST on my own based on my insert method.
+- I wrote the recursive find() method in StudentBST on my own based on my insert() method.
 - I wrote the recursive delete() method in the StudentBST class on my own.
 - My implementation for List, AbstractList, and ArrayList closely follows those of the textbook (Liang, 2024).
 - The Tree<E> interface that extends Collection closely follows the textbook (Liang, 2024).
