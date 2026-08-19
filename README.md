@@ -54,7 +54,7 @@ This is my course project for Programming and Data Structures in Java, which sto
 I wrote the source code in Notepad in Windows 11, compiled it in the Command Prompt using the javac command, and ran it using the java command.
 
 ## Setup
-To compile these .java files into Java bytecode, you can use the command line like I did or your favorite IDE of choice.
+To compile this .java file into Java bytecode, you can use the command line like I did or your favorite IDE of choice.
 
 ## Usage
 - After running SIS.java, you can interact with the menu choices by entering the number corresponding to the menu selection you want to perform such as entering 1 to add a student.
