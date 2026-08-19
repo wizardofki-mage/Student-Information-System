@@ -41,7 +41,7 @@ This is my course project for Programming and Data Structures in Java, which sto
 - Since one of the requirements was to have a recursive inorder() traversal method of the StudentBST using Consumer, I had to look up what java.util.function.Consumer was for this. (Our textbook barely mentioned Consumer).
 - I searched Google, and the code for this method is based on its AI search summary, but I use a private helper method, and I checked to see if right or left are null before recursively calling the helper method on them.
 - Google's AI said that passing System.out::println as the argument for Consumer<Student> action automatically invokes the toString() method of the Student object.
-- I also went with generic <E> instead of <Student>.
+- I also went with generic E instead of Student.
 - I also changed the code that Google AI suggested for Consumer to fit our implementation of BST.
 - For the recursive StudentBST delete() method, it is still necessary for the method to know the parent to reattach the tree correctly after deleting a node.
 - The SIS class, which has the main() method, interfaces with the StudentManager class, which creates a private StudentBST and interfaces with StudentBST by passing it anonymous Student objects, calling StudentBST methods, or creating an Iterator using the bst.iterator() method.
