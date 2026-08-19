@@ -37,7 +37,6 @@ This is my course project for Programming and Data Structures in Java, which sto
 - I also came up with the return statement: return left > right ? 1 + left : 1 + right;.
 - The nested if/else structure in the private int countLeaves(Treenode<E> root) helper method is based on the nested if/else statements from this source: https://www.youtube.com/watch?v=7ZWH0ZbUIcs Some of that method I figured out on my own, such as if (root.left == null && root.right == null) return 1;
 - I figured out the code for public boolean isFullBinaryTree() and its helper method entirely on my own after writing some pseudo code on a sheet of scratch paper.
-- I figured out the code for public boolean isFullBinaryTree() and its helper method entirely on my own after writing some pseudo code on a sheet of scratch paper.
 - All of the code is in SIS.java with multiple internal classes because this was one of the requirements of the assignment submission.
 - Since one of the requirements was to have a recursive inorder() traversal method of the StudentBST using Consumer, I had to look up what java.util.function.Consumer was for this. (Our textbook barely mentioned Consumer).
 - I searched Google, and the code for this method is based on its AI search summary, but I use a private helper method, and I checked to see if right or left are null before recursively calling the helper method on them.
