@@ -32,6 +32,14 @@ This is my course project for Programming and Data Structures in Java, which sto
 - The custom ArrayList extends the AbstractList class, and both of these classes implement a List interface (since the interface specifies what methods List classes should have- an example of programming by contract).
 - The custom ArrayList also uses generics, but not Comparable or iterator.
 - I also followed a suggestion in the third chapter on sorted and unsorted lists in *Object-Oriented Data Structures* by N. Dale, D.T. Joyce, and C. Weems on returning a copy of the object that was gotten or removed from a list to ensure information hiding and better encapsulation. (This is only used in the places where it makes sense to do so and not if it is going to break something downstream).
+- The StudentBST's getHeight() method that I went with and that works is based on the one found on stackoverflow.com
+- I added guards to check for null in the left and right nodes and to end recursion with the base case that both left and right equal null. The original poster "Michael" had just one method, and I split it into two to have a helper recursive method and to fit the interface of my implementation.
+- I also came up with the return statement: return left > right ? 1 + left : 1 + right;.
+- The nested if/else structure in the private int countLeaves(Treenode<E> root) helper method is based on the nested if/else statements from this source: https://www.youtube.com/watch?v=7ZWH0ZbUIcs Some of that method I figured out on my own such as if (root.left == null && root.right == null) return 1;
+- I figured out the code for public boolean isFullBinaryTree() and its helper method entirely on my own after writing some pseudo code on a sheet of scratch paper.
+- I figured out the code for public boolean isFullBinaryTree() and its helper method entirely on my own after writing some pseudo code on a sheet of scratch paper.
+- All of the code is in SIS.java with multiple internal classes because this was one of the requirements of the assignment submission.
+
 
 
 ## Technologies:
@@ -55,17 +63,23 @@ Although I developed this on a fairly recent Windows 11 PC, this program should 
 Since it satisfies and exceeds the requirements of the Chapter 8 Exercise 1 in this textbook, I'm releasing my solution on GitHub.
 
 ## Room for improvement
-- I could polish the interface a little more and even add a GUI later when I start to learn about Java Swing components.
-- I could eventually program it so that the user can add and delete dinosaurs when I learn how to do that.
-- I could save the dinosaur "database" to a file and read it from a file after I learn how to do that.
+- After adding the second student, upon adding subsequent students, the program says the student ID is already there. However, the student is still successfully added to the BST and displays when the option to display all students is selected from the menu and when the student is searched for by ID number.
+- After adding about three students' grades, the program says the student with the highest average is the last student to have grades entered.
 
 ## Release date
 19 Aug, 2026
 
 ## Sources
+- I figured out the code for public boolean isFullBinaryTree() and its helper method entirely on my own after writing some pseudo code on a sheet of scratch paper.
+- I wrote the recursive BST insert(E e) method and its recursive helper method on my own after drawing a picture, writing a little pseudocode, and letting my subconscious work on it while I slept.
+- I wrote the recursive find method in StudentBST on my own based on my insert method.
+- I wrote the recursive delete() method in the StudentBST class on my own.
 - My implementation for List, AbstractList, and ArrayList closely follows those of the textbook (Liang, 2024).
 - The Tree<E> interface that extends Collection closely follows the textbook (Liang, 2024).
-- The getHeight() method that I went with and that works is based on the one found on stackoverflow.com
+- The StudentBST's getHeight() method that I went with and that works is based on the one found on stackoverflow.com
+- The nested if/else structure in the private int countLeaves(Treenode<E> root) helper method is based on the nested if/else statements from this source: https://www.youtube.com/watch?v=7ZWH0ZbUIcs
+- The compareTo() method in the Student class is based on the syntax of compareTo() in section 21.6 of my textbook (Liang, 2024).
+
 
 ## Works Cited
 - Liang, Y. Daniel. Introduction to Java Programming and Data Structures. 13th ed., Pearson Education Limited, 2024.
