@@ -90,17 +90,17 @@ To compile this .java file into Java bytecode, you can use the command line like
 - I searched Google for how to compare a double to Double.NaN for studentAverageUI() in the SIS class, and its AI search summary suggested using Double.isNaN(value).
 
 ## Works Cited
-- Dale, Nell, Joyce, Daniel T., and Weems, Chip. Object-Oriented Data Structures Using Java. Jones and Bartlett Learning, 2002.
+- Dale, Nell, Joyce, Daniel T., and Weems, Chip. *Object-Oriented Data Structures Using Java*. Jones and Bartlett Learning, 2002.
 
 - Google Search, Google, www.google.com/search?q=how%2Bwould%2Byou%2Buse%2BConsumer%2Bin%2Bjava%2Bto%2Bprint%2Bthe%2Belements%2Bin%2Border%2Bin%2Ba%2Bbinary%2Bsearch%2Btree%2Bthat%2Bare%2Bstudent%2Bobjects%2Bthat%2Bhave%2Bthe%2BtoString%2Bmethod%3F&rlz=1C1CHBF_enUS924US924&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCjU1NDMwajBqMTWoAgiwAgHxBaOprLfqSLxa8QWjqay36ki8Wg&sourceid=chrome&ie=UTF-8&udm=50&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8cqu7ocb7U6ah0xpkIrGMK4AD-5zQwT5IfpPJ6og2sC2IXdmIqakpXvaGorGwhS-OJs8VccvlD1MGF13c4vQEZ6BOD3Pux5R5lRiN8ciO8Slgl0BUnHh_G26N4HW8fBW4mkNU_voP8HrIeXqVfCc2UPr_YSNPgncxR2WyFnMp5o-T5_iziM1OYX83ka-_PDKYbfe8RNQ&aep=10&ntc=1&mstk=AUtExfD6AbhBbmZUfmrAzZyD8Dr0rjUUmC4WXHZaMVERHqTlZpyli5vWWX_yilihu2gRPjsnyBtL-ey574zQv88_3Hz9miQgF7l2EFqWxB2kMWVMTGkdA3FXdI1iJqn7LOVSilBy2qNkxuqrsQFjloDIBUwP_LjZtOk5e9qaquLJ4VLixVWl8nrz0UE0QtBUClISyv6qZHx6Xyq_UNXzTiyRwOvQnJm0BXZlrMWqxCBGPW_mSSioSasB4T6SdWdtiz7wq6Pa1FMgzUHujgRRQy8epu2d4aKCEzMk9Yyq44uYrpXghvFfUQWtTrKJ61qhK4kCWXFoxpN0DgYu375Gs7ZxUvf-61du1wjMOA&aioh=3&csuir=1&cs=1&atvm=2&mtid=BpNzavndO_jIkPIPuMG28A8. Accessed 5 Aug. 2026.
 
 - Google Search, Google, www.google.com/search?q=how%2Bto%2Bcheck%2Bif%2Ba%2Bdouble%2Bequals%2BDouble.NaN%2Bin%2Bjava&rlz=1C1CHBF_enUS924US924&oq=how%2Bto%2Bcheck%2Bif%2Ba%2Bdouble%2Bequals%2BDouble.NaN%2Bin%2Bjava&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigATIHCAUQIRigATIHCAYQIRiPAtIBCTEyNzg0ajBqN6gCALACAA&sourceid=chrome&source=chrome.ob&ie=UTF-8. Accessed 5 Aug. 2026. 
 
-- Liang, Y. Daniel. Introduction to Java Programming and Data Structures. 13th ed., Pearson Education Limited, 2024.
+- Liang, Y. Daniel. *Introduction to Java Programming and Data Structures*. 13th ed., Pearson Education Limited, 2024.
 
-- Michael. “Java - Finding the Height of the Binary Tree - Stack Overflow.” Stack Overflow, 31 Dec. 2015, stackoverflow.com/questions/34539213/finding-the-height-of-the-binary-tree. Accessed: 02 Aug 2026.
+- Michael. “Java - Finding the Height of the Binary Tree - Stack Overflow.” *Stack Overflow*, 31 Dec. 2015, stackoverflow.com/questions/34539213/finding-the-height-of-the-binary-tree. Accessed: 02 Aug 2026.
 
-- Stalin S. “Find Number of Leaf Nodes in given Binary Tree.” YouTube, 5 May 2015, www.youtube.com/watch?v=7ZWH0ZbUIcs. Accessed: 03 Aug 2026.
+- Stalin S. “Find Number of Leaf Nodes in given Binary Tree.” *YouTube*, 5 May 2015, www.youtube.com/watch?v=7ZWH0ZbUIcs. Accessed: 03 Aug 2026.
 
 ## Acknowledgements
 - Prof. Dr. Ibrahim AL-Agha is the project advisor.
